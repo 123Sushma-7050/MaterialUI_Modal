@@ -8,7 +8,6 @@ import {
 } from "@mui/material";
 
 const TodoItems = ({ todo, fetchTodoDetails }) => {
-  console.log(todo);
   return (
     <div>
       <Card

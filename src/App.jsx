@@ -32,7 +32,6 @@ const App = () => {
   }
 
   async function fetchTodoDetails(getCurrentTodoId) {
-    console.log(getCurrentTodoId);
     try {
       const apiResponse = await fetch(
         `https://dummyjson.com/todos/${getCurrentTodoId}`
